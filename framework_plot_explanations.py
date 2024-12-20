@@ -236,7 +236,7 @@ def plot_legend(
 
 if __name__ == "__main__":
 
-    interaction_data = None  # None, "linear-interaction", "non-linear-interaction"
+    interaction_data = "linear-interaction"  # None, "linear-interaction", "non-linear-interaction"
 
     # load the data
     # _ = load_explanation_data(only_load=True, interaction_data=None)
